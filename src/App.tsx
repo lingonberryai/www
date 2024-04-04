@@ -29,6 +29,16 @@ function App() {
             <p className="mt-2 text-2xl">Trained to work out of the box.</p>
             <p className="text-2xl">Ready to learn your brand personality.</p>
           </div>
+
+          <div className="mt-48 text-center">
+            <div className="text-4xl font-bold">Cross-Platform</div>
+            <div className="mt-2 text-2xl text-gray-500">
+              Hosts bring customers together, meeting them where they already
+              are.
+              <br />
+            </div>
+          </div>
+
           <div className="text-4xl text-center pt-36">
             We’ve spent thousands of hours training our base mascots to be{' '}
             <span className="text-orange-500 ">collaborative</span> &{' '}
@@ -51,7 +61,10 @@ function App() {
               alt="what does that mean bro?"
             />
           </div>
-          <div className="mt-48 text-center">
+
+          <img className="mt-24" src="/public/train-shot.png" alt="training" />
+
+          <div className="mt-8 text-center ">
             <div className="text-4xl font-bold">Train by Speaking</div>
             <div className="mt-2 text-2xl text-gray-500">
               Teach your Host to care for your customers in a language they
@@ -63,19 +76,12 @@ function App() {
             </div>
           </div>
 
-          <div className="mt-48 text-center">
+          <img className="mt-48" src="/public/design-shot.png" alt="design" />
+          <div className="mt-8 text-center">
             <div className="text-4xl font-bold">Design</div>
             <div className="mt-2 text-2xl text-gray-500">
-              Customizing made as easy as playing a video game.
-              <br />
-            </div>
-          </div>
-
-          <div className="mt-48 text-center">
-            <div className="text-4xl font-bold">Cross-Platform</div>
-            <div className="mt-2 text-2xl text-gray-500">
-              Hosts bring customers together, meeting them where they already
-              are.
+              It's stupid easy, just say what you like, and we do the rest. Make
+              a brand new mascot or bring your own.
               <br />
             </div>
           </div>
