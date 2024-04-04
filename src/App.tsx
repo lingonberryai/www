@@ -1,18 +1,18 @@
 import './App.css'
 import Header from './components/Header'
-import tanaki from './assets/tanaki-avatar.png'
 import whatbro from './assets/what-bro.svg'
+import Rive from '@rive-app/react-canvas'
+
+export const Mascots = () => <Rive src="/mascots.riv" />
 
 function App() {
   return (
     <>
       <Header />
-
       <div className="flex items-center justify-center min-h-screen">
-        <div className="max-w-xl pt-10">
-          <img className="block mx-auto w-80" src={tanaki} alt="tanaki" />
+        <div className="max-w-xl pt-20">
+          <Mascots />
           <div className="text-center">
-            {' '}
             <div className="pb-2 text-2xl">
               Brand mascots run communities with
             </div>
