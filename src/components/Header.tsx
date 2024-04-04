@@ -1,5 +1,4 @@
 import logo from '../assets/logo.svg'
-import tanaki from '../assets/tanaki-avatar.png'
 
 export default function Header() {
   return (
@@ -11,10 +10,10 @@ export default function Header() {
         <span className="text-xl text-gray-400">
           リンゴンベリーインテリジェンス
         </span>
-        <nav className="flex mt-2 space-x-4 text-lg font-bold">
+        <nav className="flex justify-center mt-2 space-x-4 text-lg font-bold text-center">
           <a href="https://tanaki.ai/">Tanaki</a>
-          <a href="#">HostOS</a>
-          <a href="#">Careers</a>
+          <a href="https://tiktok.com/@lingonberryai">TikTok</a>
+          <a href="mailto:careers@lingonberry.ai">Careers</a>
           <a href="#">Investors</a>
         </nav>
       </div>

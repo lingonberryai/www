@@ -59,7 +59,15 @@ function App() {
               your brand shine.
               <br />
               <br />
-              It's as easy as speaking... because that's how you do it!
+              You speak, your Host listens.
+            </div>
+          </div>
+
+          <div className="mt-48 text-center">
+            <div className="text-4xl font-bold">Design</div>
+            <div className="mt-2 text-2xl text-gray-500">
+              Customizing made as easy as playing a video game.
+              <br />
             </div>
           </div>
 
@@ -71,6 +79,12 @@ function App() {
               <br />
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="mt-40 text-center">
+        <div className="inline-block px-8 py-4 mt-2 text-6xl font-bold text-center bg-yellow-300 rounded-full ">
+          <a href="mailto:tanaki@lingonberry.ai">Want to try the beta? →</a>
         </div>
       </div>
 
