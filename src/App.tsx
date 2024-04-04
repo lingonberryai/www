@@ -31,6 +31,8 @@ function App() {
           </div>
 
           <div className="mt-48 text-center">
+            <img className="mt-24" src="social.png" alt="training" />
+
             <div className="text-4xl font-bold">Cross-Platform</div>
             <div className="mt-2 text-2xl text-gray-500">
               Hosts bring customers together, meeting them where they already
@@ -62,10 +64,10 @@ function App() {
             />
           </div>
 
-          <img className="mt-24" src="/public/train-shot.png" alt="training" />
+          <div className="text-center mt-36">
+            <img src="train-shot.png" alt="training" />
 
-          <div className="mt-8 text-center ">
-            <div className="text-4xl font-bold">Train by Speaking</div>
+            <div className="mt-4 text-4xl font-bold">Train by Speaking</div>
             <div className="mt-2 text-2xl text-gray-500">
               Teach your Host to care for your customers in a language they
               understand. Personality, memes, in-jokes, the things that make
@@ -76,7 +78,7 @@ function App() {
             </div>
           </div>
 
-          <img className="mt-48" src="/public/design-shot.png" alt="design" />
+          <img className="mt-48" src="design-shot.png" alt="design" />
           <div className="mt-8 text-center">
             <div className="text-4xl font-bold">Design</div>
             <div className="mt-2 text-2xl text-gray-500">
@@ -89,14 +91,18 @@ function App() {
       </div>
 
       <div className="mt-40 text-center">
-        <div className="inline-block px-8 py-4 mt-2 text-6xl font-bold text-center bg-yellow-300 rounded-full ">
+        <div className="text-3xl text-center">
+          Our Hosts reach & entertain millions of fans.
+        </div>
+        <div className="inline-block px-8 py-4 mt-4 text-6xl font-bold text-center bg-yellow-300 rounded-full ">
           <a href="mailto:tanaki@lingonberry.ai">Want to try the beta? →</a>
         </div>
       </div>
 
       <div className="pt-40 text-center">
         {' '}
-        everything has a butt. this is the butt of the website.
+        everything has a butt. this is the butt of the website. thanks for
+        stopping by.
       </div>
     </>
   )
