@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       <div className="flex items-center justify-center min-h-screen">
-        <div className="max-w-xl pt-20">
+        <div className="w-full max-w-4xl pt-20">
           <Mascots />
           <div className="text-center">
             <div className="pb-2 text-2xl">
@@ -52,9 +52,10 @@ function App() {
           <div className="text-2xl text-center text-gray-500">we offer a</div>
           <br />
           <br />
-          <div className="italic font-bold text-center text-9xl">
+          <div className="italic font-bold leading-none text-center text-7xl sm:text-7xl md:text-8xl lg:text-9xl">
             MASCOT TRAINING GROUND
           </div>
+
           <br />
           <div className="flex justify-center mt-48">
             <img
