@@ -65,10 +65,10 @@ function App() {
             />
           </div>
 
-          <div className="text-center mt-36">
-            <img src="train-shot.png" alt="training" />
+          <div className="text-center mt-36 ">
+            <img className="screenshot" src="train-shot.png" alt="training" />
 
-            <div className="mt-4 text-4xl font-bold">Train by Speaking</div>
+            <div className="mt-12 text-4xl font-bold">Train by Speaking</div>
             <div className="mt-2 text-2xl text-gray-500">
               Teach your Host to care for your customers in a language they
               understand. Personality, memes, in-jokes, the things that make
@@ -79,9 +79,14 @@ function App() {
             </div>
           </div>
 
-          <img className="mt-48" src="design-shot.png" alt="design" />
+          <img
+            className="mt-48 screenshot"
+            src="design-shot.png"
+            alt="design"
+          />
+
           <div className="mt-8 text-center">
-            <div className="text-4xl font-bold">Design</div>
+            <div className="mt-12 text-4xl font-bold">Design</div>
             <div className="mt-2 text-2xl text-gray-500">
               It's stupid easy, say what you like, and we do the rest.
               <br />
