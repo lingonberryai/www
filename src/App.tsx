@@ -88,9 +88,9 @@ function App() {
           <div className="mt-8 text-center">
             <div className="mt-12 text-4xl font-bold">Design</div>
             <div className="mt-2 text-2xl text-gray-500">
-              It's stupid easy, say what you like, and we do the rest.
+              It's stupid easy. Say what you like, we do the rest.
               <br />
-              Make a brand new mascot or bring your own.
+              Create a brand new mascot or bring your own.
               <br />
             </div>
           </div>
