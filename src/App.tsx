@@ -98,11 +98,27 @@ function App() {
       </div>
 
       <div className="mt-40 text-center">
-        <div className="text-3xl text-center">
-          Our Hosts reach & entertain millions of fans.
+        <div className="text-4xl text-center">
+          <p>Our Hosts reach & entertain millions of fans.</p>
+
+          <br />
+          <p className="mt-16 font-bold">Imagine</p>
+          <br />
+          <div className="text-2xl text-gray-500">
+            <p>You run the #1 TikTok Live stream</p>
+            <p>A buzzing Discord server</p>
+            <p>Knowing where your customers hang out</p>
+            <p>Your fans collaborating with each other</p>
+            <p>Customers begging to talk to you because... it's fun</p>
+          </div>
+          <br />
+          <p className="text-3xl italic">You're in luck 😘</p>
+          <br />
         </div>
         <div className="inline-block px-8 py-4 mt-4 text-6xl font-bold text-center bg-yellow-300 rounded-full ">
-          <a href="mailto:tanaki@lingonberry.ai">Want to try the beta? →</a>
+          <a href="mailto:tanaki@lingonberry.ai?subject=I%20want%20to%20use%20HostOS%20to%20connect%20with%20my%20customers.%20How%20do%20I%20get%20access%3F">
+            Try HostOS® Beta
+          </a>
         </div>
       </div>
 
