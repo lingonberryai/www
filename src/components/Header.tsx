@@ -19,14 +19,12 @@ export default function Header() {
           >
             TikTok
           </a>
+
           <a
-            href="mailto:careers@lingonberry.ai"
+            href="https://lingonberryco.notion.site/Lingonberry-Intelligence-at-a-Glance-9c77b490472944c1aa8109363c5c5e44?pvs=4"
             className="hover:text-red-500"
           >
-            Careers
-          </a>
-          <a href="#" className="hover:text-red-500">
-            Investors
+            Partners
           </a>
         </nav>
       </div>

@@ -15,8 +15,28 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-html, body {
+html,
+body {
   background: white;
   color: black;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.knowledge,
+.results {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.genie-drift {
+  animation: drift 2s ease-in-out infinite;
 }
