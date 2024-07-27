@@ -1,6 +1,5 @@
 import './App.css'
 import Header from './components/Header'
-import whatbro from './assets/what-bro.svg'
 import Rive from '@rive-app/react-canvas'
 
 export const Mascots = () => <Rive src="/mascots.riv" />
