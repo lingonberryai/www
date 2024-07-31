@@ -93,8 +93,7 @@ function App() {
 
       <div className="pt-40 text-center">
         {' '}
-        everything has a butt. this is the butt of the website. thanks for
-        stopping by.
+        このテキストは国際的な雰囲気を作り出すためにここにあります
       </div>
     </>
   )
