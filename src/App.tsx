@@ -85,9 +85,7 @@ function App() {
           <br />
         </div>
         <div className="inline-block px-8 py-4 mt-4 text-6xl font-bold text-center bg-yellow-300 rounded-full ">
-          <a href="mailto:tanaki@lingonberry.ai?subject=I%20want%20to%20use%20HostOS%20to%20connect%20with%20my%20customers.%20How%20do%20I%20get%20access%3F">
-            Try HostOS® Beta
-          </a>
+          <a href="https://hostos.app/">Try HostOS® Beta</a>
         </div>
       </div>
 
