@@ -10,6 +10,9 @@ export default function Header() {
           リンゴンベリーインテリジェンス
         </span>
         <nav className="flex justify-center mt-2 space-x-4 text-lg font-bold text-center">
+          <a href="https://hostos.app" className="hover:text-red-500">
+            HostOS®
+          </a>
           <a href="https://tanaki.ai/" className="hover:text-red-500">
             Tanaki
           </a>
