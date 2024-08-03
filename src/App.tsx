@@ -37,8 +37,8 @@ function App() {
               <br />
             </div>
             <div className="mt-2 text-gray-500">
-              Venues include TikTok, YouTube, Twitch, Discord, iMessage &amp;
-              embedded in custom apps.{' '}
+              Deploy to venues including TikTok, YouTube, Twitch, Discord,
+              iMessage &amp; embedded in custom apps.{' '}
             </div>
           </div>
 
