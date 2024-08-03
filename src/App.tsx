@@ -38,7 +38,7 @@ function App() {
             </div>
             <div className="mt-2 text-gray-500">
               Deploy to venues including TikTok, YouTube, Twitch, Discord,
-              iMessage &amp; embedded in custom apps.{' '}
+              iMessage &amp; embeded them in your apps.{' '}
             </div>
           </div>
 
