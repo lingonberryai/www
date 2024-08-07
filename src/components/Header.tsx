@@ -24,7 +24,7 @@ export default function Header() {
           </a>
 
           <a
-            href="https://lingonberryco.notion.site/Lingonberry-Intelligence-at-a-Glance-9c77b490472944c1aa8109363c5c5e44?pvs=4"
+            href="https://lingonberryco.notion.site/Lingonberry-Intelligence-at-a-Glance-9c77b490472944c1aa8109363c5c5e44https://psql.notion.site/HostOS-by-Lingonberry-Intelligence-65f9bbe0c8344c45aaf2e38d38d1c41d?pvs=25"
             className="hover:text-red-500"
           >
             Partners
