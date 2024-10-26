@@ -23,12 +23,6 @@ export default function Header() {
             TikTok
           </a>
 
-          <a
-            href="https://psql.notion.site/HostOS-by-Lingonberry-Intelligence-65f9bbe0c8344c45aaf2e38d38d1c41d"
-            className="hover:text-red-500"
-          >
-            Partners
-          </a>
         </nav>
       </div>
     </div>
