@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: #000;
+  color: #ffffff;
+  font-family: 'Courier New', monospace;
+  padding: 20px;
+  line-height: 1.6;
+  height: 100%;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.comment { color: #888; }
+.keyword { color: #00ff00; }
+.string { color: #ffff00; }
+.system { color: #0080ff; }
+.pasquale { color: #ffff00; }
+.skeleton { color: #ff0000; }
+a {
+  color: #00ff00;
+}
