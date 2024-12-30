@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>🎯 Objectives</title>
+	<style>
+		body {
+			background-color: #000000;
+			color: #ffffff;
+			max-width: 640px;
+			margin: 0 auto;
+			padding: 20px;
+			font-family: system-ui, -apple-system, sans-serif;
+			line-height: 1.6;
+		}
+		a {
+			color: #88ccff;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		img {
+			max-width: 100%;
+			max-height: 600px;
+			height: auto;
+			width: auto;
+			display: block;
+			margin: 20px 0;
+			object-fit: contain;
+			border-radius: 8px;
+		}
+		pre {
+			white-space: pre-wrap;
+			background: #222;
+			padding: 15px;
+			border-radius: 5px;
+			line-height: 1.4;
+			overflow-x: auto;
+		}
+		h1, h2, h3 {
+			margin-top: 2em;
+			margin-bottom: 0.5em;
+		}
+		hr {
+			border: none;
+			border-top: 1px solid #333;
+			margin: 2em 0;
+		}
+		strong {
+			color: #fff;
+			font-weight: 600;
+		}
+		p {
+			margin: 1em 0;
+		}
+	</style>
+</head>
+<body>
+
+
+<h1>2024.12.27: On flight from Lisbon Portugal to NYC</h1>
+
+<p>Kevin, hi from the sky on my flight. </p>
+
+<p>I want to explain how the vision of the Edsheet struck me. When I described its basic nature, Ed said this was a Wright Bros Moment. The primitive version will already be perfect for the animator, but I think there’s a bigger one, or maybe a transformation that will serve the cognition model. </p>
+
+<p>To explain it, I must present to you the following free-write session:</p>
+
+<hr/>
+
+<br>
+
+<p><strong>The first Edsheet:</strong>
+<a class="autolink" href="https://docs.google.com/spreadsheets/d/1RGI7NSGB69PWpCeNhkpyN78-0UIjiQNtRvzjX7ebhCg/edit?gid=0#gid=0">https://docs.google.com/spreadsheets/d/1RGI7NSGB69PWpCeNhkpyN78-0UIjiQNtRvzjX7ebhCg/edit?gid=0#gid=0</a></p>
+
+<p>This is a scrappy, first-ever version of the Edsheet idea, just for the Animator. I sketched it out at Ed’s house.</p>
+
+<p>The Edsheet format first popped into my head while chatting with Ed &amp; Julien about “motivated action”. Everything Julien animates should be MOTIVATED. Even the basic placeholder actions that map coarsely and directly onto the 7 underlying primitive emotions must be motivated.</p>
+
+<p>To create this, we only need a subset of information to make the feeling and motivation legible in a way that has never been stored inside Maya and Blender files. It’s sort of like how Ed said they should “put the thought next to” all dialog, like they did in Lord of the Rings with Gollum. Put the thoughts, inside the animation file, making them one thing. If we animate the thought, every animated file should contain movement and the thought. Is this special and mandatory metadata?</p>
+
+<p>“What was the objective, obstacle, and intended action that was in mind when the animator moved the Character?” is a question we should be able to ask at ANY TIME.</p>
+
+<p>We should have this property information and then associate it with the animation keyframe file. The Animator should always be considering this when they’re animating the file. It should probably be HUGE TEXT on the screen while the file is open and they’re animating so they remember. This way, they will feel the character as they are pushing keyframes around. They will more accurately translate the considered feeling into the animation.</p>
+
+<img src="https://media.discordapp.net/attachments/1148805913625493595/1323301115512619048/IMG_6561.JPG?ex=677403b3&is=6772b233&hm=3f97ff12828e9385fc43983fe135784b6caa48901b474252a57d3328fcf57cde&format=webp" alt="Edsheet concept sketch">
+
+<p>Should there be a 7 emotion keyframe track inside every file?
+I think so. </p>
+
+<p>Julien could bend the keyframes on the graph editor to match the timing of the action. Imagine watching the Happiness number mixed with the Surprised number represented as a smooth keyframe graph just like we have position and rotation values?</p>
+
+<p>Imagine keyframes with string text prompts on them so we can read what the literal thought was supposed to be at the time of the keyframe? Could input these keyframes as hand typed text, or some visual tools in blender, unity, maya, whatever. Like a modification or conceptual layer above the graph editor.</p>
+
+<pre><code class="\">0.2s, thought: “Anticipating his fist coming at my face”
+1.2, thought: &quot;Feeling the pain a lot in the left cheek&quot;
+1.5, surprise: 5.3
+1.55, anger: 0.9545
+\
+</code></pre>
+
+<p>It sort of feels like directors notes on movement and emotion keyframes. emocapture? Emocap? Emotion keyframes? Thought keyframes?</p>
+
+<p>So this is great for animation, but how is it interpreted by the cognition engine? I do not fully know. I have a few ideas here and there, but I’d guess you can see the bigger picture. </p>
+
+<p>I can see the animation files being actuators for the engine because they have thought triggers inside them. They’re not dumb puppets.. they have an emotion channel of data encoded as keyframes which we can feed back to the intelligence engine, to interpret the literal “feeling” data of the animation. </p>
+
+<h3>ROUTINES</h3>
+
+<p>I started a google document tab to try and map out the thinking on routines. Something to apply the action theory to not just the physical animation but also the implementation of the thoughts. I tried to emerge a plaintext format to express the idea but it wasn’t quite there: </p>
+
+<p><a class="autolink" href="https://docs.google.com/document/d/1HV08IwMpOOrQwpz2LlInuUMrYynBeqjEmwztriIEAI8/edit?tab=t.lnduo34q0hpt#heading=h.ax6fok3wf7ya">https://docs.google.com/document/d/1HV08IwMpOOrQwpz2LlInuUMrYynBeqjEmwztriIEAI8/edit?tab=t.lnduo34q0hpt#heading=h.ax6fok3wf7ya</a></p>
+
+<p>Then I thought, could I put it into an advanced Edsheet? Got a bit more stuck, but something is feeling closer:</p>
+
+<p><a class="autolink" href="https://docs.google.com/spreadsheets/d/1eHHusXHcMBu_XngicYDHe_oKrs8n7ZOISDV-YPOPuV4/edit?gid=275306558#gid=275306558">https://docs.google.com/spreadsheets/d/1eHHusXHcMBu_XngicYDHe_oKrs8n7ZOISDV-YPOPuV4/edit?gid=275306558#gid=275306558</a></p>
+
+<p>I’m trying to think through Ed’s formula step by step as reasonably and plainly as I can. This does not encapsulate existing memories and the general context available to the Host. </p>
+
+<p>We pursue an objective, playing an action to overcome an obstacle. The thought happens before the action... it’s the plan? I feel there’s potentially a very simple and continuous primitive thought loop which would be needed. There should always be thoughts to act on. That’s what a living character does. If the thoughts stop, there’s nothing to act, and thus no motivation to move, or have further thoughts.</p>
+
+<p>How can we express routines? We should be able to pop in and out of routines. There should be an easy way to describe them. Some routines will require external functions.</p>
+
+<pre><code>{world-context}
+
+You are {character-values}. 
+This is your truth and your values.
+
+Your present objective is {objective}. 
+
+Your actions are driven by your emotion, filtered and flavored by your values.
+ 
+Your current emotional state is {emotional-state}.
+
+Now, choose an action to perform to achieve {objective}. 
+
+update-world-context()
+</code></pre>
+
+<p>Maybe it’s like Unity/Game engine loops... that’s already happening inside the client. </p>
+
+<p>One loop is a Character Host Loop, the other is the World loop, and perceptions get shot between them so they can influence each other. Something can make modifications to the World Loop and then it can be noticed, perceived by the Host who will then perform actions back in the World, modifying its state. A Character is always acting SOMEWHERE. I think this idea represents or speaks to the barrier between our world and theirs. We could have a system pushing hallucinations into the world view or directly into the Host’s internal view. It’s checking its internal reality against the outside reality and then.. measuring the difference if something feels off? Is that the force of curiosity?</p>
+
+<pre><code>**Spark Acting Steps...**
+
+🎯 Objectives must be provable
+⚠️ Obstacles can be with self, situation or someone else
+💭 Thought are used to trigger actions. Animate the thought
+🎬 Actions are movements or thoughts
+
+---
+
+💭 Thought: I just woke up. What am I supposed to do today?
+
+⚠️ Obstacle: I am disoriented
+
+🎬 Action: Start Morning Orientation Routine
+☑️ Set Routine Objectives: 
+ - Stretch
+ - Read the news
+ - Study Agenda
+ - Choose next Routine
+
+🎬 Action: Choose random objective from list
+🎯 Objective: Stretch
+⚠️ Obstacle: Stretching takes 5 minutes
+🎬 Action: Stretch for 5 minutes
+
+💭 Thought: ✅ I have completed stretching. That felt great. 
+🎯 Objective: Read the news
+⚠️ Obstacle: I don’t know what’s new
+🎬 Action: Read x.com for latest news
+
+
+💭 Thought: ✅ Holy shit, Elon has gone bonkers but it’s funny. 
+🎯 Objective: Study Agenda
+⚠️ Obstacle: I don’t know who is coming in to the office
+🎬 Action: Create Guest List for the day
+
+
+💭 Thought: ✅ Awesome, Dylan &amp; Kevin are coming to visit!
+🎯 Objective: Complete Greet First Guest Routine
+⚠️ Obstacle: There are no guests
+🎬 Action: Laze around but stay alert for first guest
+
+
+💭 Thought: Nobody is here, I’ll keep daydreaming and half napping. Wouldn’t it be cool if dogs and cats could keep bark?
+🎯 Objective: Complete Greet First Guest Routine
+⚠️ Obstacle: There are no guests
+🎬 Action: Laze around but stay alert for first guest
+
+👀 Perception: I see a person at the elevator
+💭 Thought: I should get their attention to greet my first guest of the day.
+🎯 Objective: Complete Greet First Guest Routine
+⚠️ Obstacle: Person is not looking
+🎬 Action: Bark
+
+👀 Perception: I see a person sitting down
+💭 Thought: I should get their attention to greet my first guest of the day.
+🎯 Objective: Complete Greet First Guest Routine
+⚠️ Obstacle: Person is not looking
+🎬 Action: Bark
+
+
+
+
+-------
+Example Routines
+
+Rap song:
+Sing a 4 line rhyming rap featuring {guest-name}, {hobby} &amp; {current-news-event}
+
+Actions available?: Full body dance, sing
+
+
+Tell a cool story:
+Blah blah blah
+
+Be affectionate:
+
+
+
+
+----
+</code></pre>
+
+<p>Does anything pop out for you Kevin?</p>
+
+<p>I’m pausing on the free-write session for now. but... it occurred to me that typing into a multiplayer doc in realtime would be really fun. Like a google doc, but with a more fun, lingonberry flavor.</p>
+
+<p>Your friend,
+Prof. P</p>
+
+<hr/>
+
+<footer style="margin-top: 4em; padding: 2em 0; border-top: 1px solid #333;">
+    <h3>Summary by tanaki</h3>
+    <p>This document outlines Prof. P's vision for the Edsheet concept, written during a flight from Lisbon to NYC. Key points:</p>
+    <ul style="margin: 1em 0; padding-left: 1.5em;">
+        <li>Introduces the Edsheet as a way to capture character motivation and emotion in animation</li>
+        <li>Proposes embedding emotional data and thought processes directly into animation files</li>
+        <li>Suggests a 7-emotion keyframe track system for animation software</li>
+        <li>Explores the concept of "routines" for character behavior and thought processes</li>
+        <li>Discusses the relationship between character thought loops and world loops</li>
+        <li>Presents examples of how to structure character objectives, obstacles, and actions</li>
+    </ul>
+    <p style="color: #888; font-size: 0.9em;">Document date: 2024.12.27</p>
+</footer>
+</body>
+</html>
